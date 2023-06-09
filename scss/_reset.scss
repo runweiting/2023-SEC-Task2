@@ -46,6 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body{
-	font-family: $font-family-base;
+
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	background: #1E1E1E;
+	color: $black-0;
 }
