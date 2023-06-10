@@ -14,6 +14,7 @@
   rel="stylesheet">
   <script src="js/jquery-3.7.0.min.js"></script>
   <script src="js/all.js"></script>
+  
 </head>
 
 <body>
@@ -21,7 +22,10 @@
     <div class="header">
       <div class="header-nav">
         <h1><a href="#"><img src="images/logo.png" alt="AI工具王"></a></h1>
-        <ul class="menu">
+        <button type="button" class="header-nav-btn">
+          <span class="material-icons">menu</span>
+        </button>
+        <ul class="header-menu">
           <li><a href="#" class="mr-20">首頁</a></li>
           <li><a href="#">定價</a></li>
         </ul>
@@ -33,7 +37,7 @@
           強大模型<br>
           讓您的業務更聰明<br>
         </p>
-        <a href="#" class="start-btn mt-40">開始使用</a>
+        <a href="#" class="start-btn TC-h06-b mt-40">開始使用</a>
         <div class="deco-animation">
           <img src="images/deco.png" alt="動畫效果">
           <img src="images/deco.png" alt="動畫效果">
@@ -52,17 +56,17 @@
           </div>
       </div>
       <ul class="service-list">
-        <div class="list-item mr-24">
+        <div class="list-item-s mr-24">
           <img src="images/icons/flash on.png" alt="快速圖示">
           <p class="TC-h03-b mb-20">快速</p>
           <p class="TC-b-r mb-20">我們先進的推理基礎設施提供了極短的響應時間，讓你的產品服務不間斷。</p>
         </div>
-        <div class="list-item mr-24">
+        <div class="list-item-s mr-24">
           <img src="images/icons/auto awesome.png" alt="靈活圖示">
           <p class="TC-h03-b mb-20">靈活</p>
           <p class="TC-b-r mb-20">我們的服務可以根據您的需求進行靈活調整，同時還可以滿足不同項目和預算的需求。</p>
         </div>
-        <div class="list-item">
+        <div class="list-item-s">
           <img src="images/icons/library add.png" alt="擴充圖示">
           <p class="TC-h03-b mb-20">擴充</p>
           <p class="TC-b-r mb-20">我們的服務支持多種擴充選項，可以滿足您的不斷增長的 AI 需求。</p>
@@ -72,7 +76,10 @@
       <div class="partner-title">
         <p class="TC-h03-b">來自合作夥伴</p>
       </div>
+      
       <div class="partner-logo">
+        <div class="mask-left"></div>
+        <div class="mask-right"></div>
         <div class="logo-row1 mt-20">
           <img src="images/enterprise1.png" alt="夥伴logo">
           <img src="images/enterprise2.png" alt="夥伴logo">
@@ -91,8 +98,22 @@
           <img src="images/enterprise7.png" alt="夥伴logo">
         </div>
       </div>
+      <div class="partner-logo-collapse">
+        <div class="mask-left-c"></div>
+        <div class="mask-right-c"></div>
+        <div class="logo-row1-c mt-20">
+          <img src="images/enterprise1.png" alt="夥伴logo">
+          <img src="images/enterprise2.png" alt="夥伴logo">
+          <img src="images/enterprise3.png" alt="夥伴logo">
+        </div>
+        <div class="logo-row2-c">
+          <img src="images/enterprise7.png" alt="夥伴logo">
+          <img src="images/enterprise8.png" alt="夥伴logo">
+        </div>
+      </div>
+
       <div class="partner-list mt-160">
-        <div class="list-item mr-24">
+        <div class="list-item-p mr-24">
           <div class="star">
             <img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星">
           </div>
@@ -108,7 +129,7 @@
             
           </div>
         </div>
-        <div class="list-item mr-24">
+        <div class="list-item-p mr-24">
           <div class="star">
             <img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星">
           </div>
@@ -124,7 +145,7 @@
             
           </div>
         </div>
-        <div class="list-item">
+        <div class="list-item-p">
           <div class="star">
             <img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星">
           </div>
@@ -140,175 +161,204 @@
             
           </div>
         </div>
-
-        
-        
       </div>
-    </div>
-    <div class="tool mt-160">
-      <div class="tool-title">
-        <p class="TC-d03-b">這些超酷的應用，都來自 AI工具王</p>
-        <div class="tool-search mt-80">
-          <span class="material-icons">search</span>
-          <input type="text" class="search-bar TC-b-r" placeholder="輸入關鍵字搜尋" id="search">
+      <div class="partner-list-collapse">
+        <div class="list-item-p-c">
+          <div class="star">
+            <img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星"><img src="images/icons/star.png" alt="星星">
+          </div>
+          <div class="content mb-20">
+            <p class="TC-b-r mt-20">非常喜歡 AI工具王 提供的 AI 模型租賃服務，使用起來非常方便，而且效果非常好。對於我們公司的業務來說，這個服務非常重要，因為我們需要大量的數據進行分析和預測，AI工具王 提供的 AI 模型能夠幫助我們節省大量時間和成本，實在是太棒了！</p>
+          </div>
+          <div class="customer">
+            <img src="images/avatar3.png" alt="陳小姐頭像">
+            <div class="name">
+              <p class="TC-b-b">陳小姐</p>
+              <p class="TC-s-r">ABC科技有限公司</p>
+            </div>
+            
+          </div>
         </div>
       </div>
-      <div class="tool-nav mt-24">
-        <input type="button" value="">
-          <p class="TC-b-r">篩選</p>
-          <span class="material-icons">   filter_alt</span>
-        </input>
-        <ul>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-        </ul>
-        <input type="button" value="">
-          <p></p>
-          <span></span>
-        </input>
+      <ul class="customer-pagination">
+        <li><a href="#"><span class="material-icons">fiber_manual_record</span></a></li>
+        <li><a href="#"><span class="material-icons">fiber_manual_record</span></a></li>
+        <li><a href="#"><span class="material-icons">fiber_manual_record</span></a></li>
+        
+      </ul>
+
+      
+    </div>
+    <div class="tool mt-160">
+      <p class="TC-d03-b">這些超酷的應用，都來自 AI工具王</p>
+      <div class="tool-search mt-80">
+        <span class="material-icons">search</span>
+        <input type="text" class="search-bar TC-b-r" placeholder="輸入關鍵字搜尋" id="search">
       </div>
-      <ul class="tool-list">
-          <li>
-            <img src="" alt="">
+      <div class="tool-nav">
+        <div class="filter">
+          <p class="TC-b-r mr-12">篩選</p>
+          <span class="material-icons">filter_alt</span>
+        </div>
+        <ul class="filter-tag TC-b-r">
+          <li><a href="#">全部</a></li>
+          <li><a href="#">聊天</a></li>
+          <li><a href="#">影像辨識</a></li>
+          <li><a href="#">翻譯</a></li>
+          <li><a href="#">行銷</a></li>
+          <li><a href="#">客服</a></li>
+          <li><a href="#">生產力</a></li>
+        </ul>
+        <div class="filter-type">
+          <p class="TC-b-r mr-12">由新到舊</p>
+          <span class="material-icons">expand_more</span>
+        </div>
+      </div>
+      <ul class="tool-list mt-40">
+          <li class="list-item-t">
+            <img src="images/tool1.png" alt="Chatbot Builder圖示">
             <div class="tool-intro">
-              <h6></h6>
-              <p></p>
-            </div>
-            <div class="tool-ai">
-              <p></p>
-              <p></p>
+              <p class="TC-h06-b">Chatbot Builder</p>
+              <p class="TC-s-r black-80 mt-12">建立智能化的聊天機器人，解答常見問題、提供客戶支援、收集反饋等。</p>
             </div>
             <div class="tool-tag">
-              <p></p>
-              <a href=""><span></span></a>
+              <p class="TC-b-b">AI 模型</p>
+              <p class="TC-b-r">卡卡</p>
+            </div>
+            <div class="tool-tag">
+              <p class="TC-b-r">#聊天</p>
+              <a href="#"><span class="material-icons">share</span>
+
+              </a>
             </div>
           </li>
-          <li>
-            <img src="" alt="">
+          <li class="list-item-t">
+            <img src="images/tool2.png" alt="Image Recognition Platform圖示">
             <div class="tool-intro">
-              <h6></h6>
-              <p></p>
-            </div>
-            <div class="tool-ai">
-              <p></p>
-              <p></p>
+              <p class="TC-h06-b">Image Recognition Platform</p>
+              <p class="TC-s-r black-80 mt-12">專業的圖像識別平台，識別圖像、分類、標記等。
+              </p>
             </div>
             <div class="tool-tag">
-              <p></p>
-              <a href=""><span></span></a>
+              <p class="TC-b-b">AI 模型</p>
+              <p class="TC-b-r">杰杰</p>
+            </div>
+            <div class="tool-tag">
+              <p class="TC-b-r">#影像辨識</p>
+              <a href="#"><span class="material-icons">share</span>
+              </a>
             </div>
           </li>
-          <li>
-            <img src="" alt="">
+          <li class="list-item-t">
+            <img src="images/tool3.png" alt="Language Translation API圖示">
             <div class="tool-intro">
-              <h6></h6>
-              <p></p>
-            </div>
-            <div class="tool-ai">
-              <p></p>
-              <p></p>
+              <p class="TC-h06-b">Language Translation API</p>
+              <p class="TC-s-r black-80 mt-12">專業的語言翻譯 API，實現文本翻譯功能，支援多種格式的文本。
+              </p>
             </div>
             <div class="tool-tag">
-              <p></p>
-              <a href=""><span></span></a>
+              <p class="TC-b-b">AI 模型</p>
+              <p class="TC-b-r">琪琪</p>
+            </div>
+            <div class="tool-tag">
+              <p class="TC-b-r">#翻譯</p>
+              <a href="#"><span class="material-icons">share</span>
+              </a>
             </div>
           </li>
-          <li>
-            <img src="" alt="">
+          <li class="list-item-t">
+            <img src="images/tool4.png" alt="Sentiment Analysis API圖示">
             <div class="tool-intro">
-              <h6></h6>
-              <p></p>
-            </div>
-            <div class="tool-ai">
-              <p></p>
-              <p></p>
+              <p class="TC-h06-b">Sentiment Analysis API</p>
+              <p class="TC-s-r black-80 mt-12">自動識別文本中的情感傾向，包括正向、負向和中性等。適用於情感分析、社交媒體監控、市場調查等。
+              </p>
             </div>
             <div class="tool-tag">
-              <p></p>
-              <a href=""><span></span></a>
+              <p class="TC-b-b">AI 模型</p>
+              <p class="TC-b-r">昊昊</p>
+            </div>
+            <div class="tool-tag">
+              <p class="TC-b-r">#行銷</p>
+              <a href="#"><span class="material-icons">share</span>
+              </a>
             </div>
           </li>
-          <li>
-            <img src="" alt="">
+          <li class="list-item-t">
+            <img src="images/tool5.png" alt="Fraud Detection Platform圖示">
             <div class="tool-intro">
-              <h6></h6>
-              <p></p>
-            </div>
-            <div class="tool-ai">
-              <p></p>
-              <p></p>
+              <p class="TC-h06-b">Fraud Detection Platform</p>
+              <p class="TC-s-r black-80 mt-12">預防詐騙活動，適用於銀行、金融、電商等。
+              </p>
             </div>
             <div class="tool-tag">
-              <p></p>
-              <a href=""><span></span></a>
+              <p class="TC-b-b">AI 模型</p>
+              <p class="TC-b-r">卡卡</p>
+            </div>
+            <div class="tool-tag">
+              <p class="TC-b-r">#客服</p>
+              <a href="#"><span class="material-icons">share</span>
+              </a>
             </div>
           </li>
-          <li>
-            <img src="" alt="">
+          <li class="list-item-t">
+            <img src="images/tool6.png" alt="Voice Assistant SDK圖示">
             <div class="tool-intro">
-              <h6></h6>
-              <p></p>
-            </div>
-            <div class="tool-ai">
-              <p></p>
-              <p></p>
+              <p class="TC-h06-b">Voice Assistant SDK</p>
+              <p class="TC-s-r black-80 mt-12">通過語音控制應用程式、設備，實現多種功能，例如播放音樂、查詢天氣、發送信息等。
+              </p>
             </div>
             <div class="tool-tag">
-              <p></p>
-              <a href=""><span></span></a>
+              <p class="TC-b-b">AI 模型</p>
+              <p class="TC-b-r">杰杰</p>
+            </div>
+            <div class="tool-tag">
+              <p class="TC-b-r">#生產力</p>
+              <a href="#"><span class="material-icons">share</span>
+              </a>
             </div>
           </li>
       </ul>
-      <ul class="pagination">
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""><span></span></a></li>
+      <ul class="pagination mt-40">
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#"><span class="material-icons">chevron_right</span></a></li>
       </ul>
     </div>
     <div class="action">
-      <h1></h1>
-      <div class="action-btn">
-        <p></p>
-        <span></span>
-      </div>
+      <p class="TC-h01-b">現在就來建立屬於你的服務吧</p>
+      <a href="" class="action-btn mt-40">
+        <p class="TC-h06-b mr-16">開始使用</p>
+        <span class="material-icons">north_east</span>
+      </a>
+  
     </div>
     <div class="footer">
       <div class="footer-nav">
-        <ul class="menu">
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
+        <ul class="footer-menu">
+          <li><a href="#" class="TC-d03-b">首頁</a></li>
+          <li><a href="#" class="TC-d03-b mt-12">定價</a></li>
         </ul>
-        <img src="" alt="">
+        <img src="images/logo.png" alt="logo">
       </div>
-      <div class="footer-social">
-        <P></P>
-        <ul>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-        </ul>
-        <div class="backtotop">
-          <a href="">
-            <p></p>
-            <span></span>
-          </a>
+      <div class="footer-subnav">
+        <div class="subnav-content">
+          <p class="copyright TC-b-b mr-100">AI工具王 © 2023</p>
+          <ul class="friendlink">
+            <li><a href="#" class="TC-b-b mr-20">Facebook</a></li>
+            <li><a href="#" class="TC-b-b mr-20">Twitter</a></li>
+            <li><a href="#" class="TC-b-b">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="backtotop TC-b-b">
+          <p><a href="#" class="mr-12">Back to top</a></p>
+          <span class="material-icons">      north</span>
         </div>
       </div>
     </div>
-
-    
   </div>
 
-  
-
-  
-  <script src="js/all.js"></script>
 </body>
 </html>
