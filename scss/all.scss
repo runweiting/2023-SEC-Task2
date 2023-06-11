@@ -46,6 +46,7 @@
     font-weight: 700;
     line-height: 24px;
 }
+
 //-- color --//
 .black-80 {
     color: $black-80;
@@ -67,6 +68,7 @@
 .mr-100 {
     margin-right: 100px;
 }
+
 //-- margin top--//
 .mt-12 {
     margin-top: 12px;
@@ -86,11 +88,11 @@
 .mt-160 {
     margin-top: 160px;
 }
+
 //-- margin bottom--//
 .mb-8 {
     margin-bottom: 8px;
 }
-
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -100,6 +102,7 @@
 .mb-160 {
     margin-bottom: 160px;
 }
+
 //-- white space--//
 .ws-nw {
     white-space: nowrap;
@@ -110,6 +113,7 @@
     letter-spacing: -0.9px;
 }
 
+//-- start --//
 .container{
     max-width: 1320px;
     margin: 0 auto;
