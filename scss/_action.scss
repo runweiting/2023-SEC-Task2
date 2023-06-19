@@ -1,0 +1,39 @@
+.action {
+    margin-top: 78px;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .action-btn {
+        height: 64px;
+        display: flex;
+        align-items: center;
+        color: $black-0;
+        padding: 20px 40px;
+        border: 1px solid $black-0;
+        border-radius: 16px;
+        text-decoration: none;
+        .material-icons {
+            font-size: 15px;
+        }
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
+.action-title-collapse{
+    display: none;
+}
+
+/* 992px */
+@media (max-width: 992px) {
+
+}
+/* 767px */
+@media (max-width: 767px) {
+
+}
+/* 414px */
+@media (max-width: 414px) {
+
+}

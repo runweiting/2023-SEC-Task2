@@ -47,8 +47,42 @@ table {
 	border-spacing: 0;
 }
 
+*,*:before,*:after {
+	outline: 1px solid #919191;
+}
+
+// color //
+$black-100: #020202;
+$black-80: #525252;
+$black-60: #919191;
+$black-40: #d1d1d1;
+$black-20: #f2f2f2;
+$black-0: #ffffff;
+$color-primary: #f18724;
+$color-surface: #f2efe7;
+
+// base //
+*,*:before,*:after {
+	box-sizing: border-box;
+}
 body {
 	font-family: 'Noto Sans TC', sans-serif;
 	background: #1E1E1E;
 	color: $black-0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+a {
+	display: block;
+	text-decoration: none;
+	color: $black-0;
+	&:hover {
+		opacity: 0.7;
+	}
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
 }
