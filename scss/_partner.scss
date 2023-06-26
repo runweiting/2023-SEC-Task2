@@ -36,25 +36,30 @@
         scrollbar-width: none; /* Firefox */
     }
 }
-.swiper-slide {
-    display: flex;
-    justify-content: space-between;
+.swiper-recommend {
+    margin: 160px 0;
 }
 .sr-card {
-    
     padding: 40px;
     border-radius: 16px;
     color: $black-20;
     background: rgba(255, 255, 255, 0.08);
     .material-icons {
         font-size: 14px;
+        gap: 4px;
     }
-    
+    p {
+        height: 215px;
+    }
     .recommender {
         display: flex;
         img {
             width: 48px;
             height: auto;
+        }
+        .r-name {
+            display: flex;
+            flex-direction: column;
         }
     }
 }

@@ -6,17 +6,30 @@
     }
 }
 .service-card {
-    margin-top: 80px;
-    margin-left: 0;
-    margin-right: 0;
-    gap: 24px;
-    .sc-item {
-        width: 416px;
-        margin: 0;
-        padding: 80px 40px;
-        border: 1px solid $black-80;
-        border-radius: 16px;
-    }
+    margin: 80px 0 160px;
+}
+.sc-item {
+    padding: 80px 40px;
+    border-radius: 16px;
+    border: 1px solid $black-80;
+}
+.swiper {
+    padding-bottom: 36px;
+}
+.swiper-pagination .swiper-pagination-bullets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+}
+.swiper-pagination-bullets {
+    background-color: #525252;
+    opacity: 1;
+}
+.swiper-pagination-bullets-active {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
 }
 
 /* 992px */

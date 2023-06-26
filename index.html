@@ -13,6 +13,8 @@
   rel="stylesheet">
 	<!-- bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Swiper CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <!-- customized css -->
   <link rel="stylesheet" href="css/all.css">
   
@@ -58,22 +60,23 @@
         <h2 class="TC-h03-b">我們的服務</h2>
         <p class="TC-h01-b lh-58">我們相信透過 AI 技術，<br>包括圖像識別、自然語言處理和機器翻譯等，讓您更快、更準確地做出決策。</p>
       </div>
-      <ul class="row row-cols-1 row-cols-md-2 row-cols-lg-3 service-card">
-        <li class="col col-md-6 col-lg-4 sc-item">
+      <div class="service-card row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="sc-item col col-md-6 col-lg-4">
           <span class="material-icons icon-fz80 mb-20">flash_on</span>
           <h3 class="TC-h03-b mb-20">快速</h3>
           <p class="TC-b-r lh-24 mb-20">我們先進的推理基礎設施提供了極短的響應時間，讓你的產品服務不間斷。</p>
-        </li>
-        <li class="col col-md-6 col-lg-4 sc-item">
+        </div>
+        <div class="sc-item col col-md-6 col-lg-4">
           <span class="material-icons icon-fz80 mb-20">auto_awesome</span>
           <h3 class="TC-h03-b mb-20">靈活</h3>
           <p class="TC-b-r lh-24 mb-20">我們的服務可以根據您的需求進行靈活調整，同時還可以滿足不同項目和預算的需求。</p>
-        </li>
-        <li class="col col-md-6 col-lg-4 sc-item">
+        </div>
+        <div class="sc-item col col-md-6 col-lg-4">
           <span class="material-icons icon-fz80 mb-20">library_add</span>
           <h3 class="TC-h03-b mb-20">擴充</h3>
           <p class="TC-b-r lh-24 mb-20">我們的服務支持多種擴充選項，可以滿足您的不斷增長的 AI 需求。</p>
-        </li>
+        </div>
+      </div>
     </div>
     <div class="partner mt-160">
       <div class="partner-title">
@@ -98,9 +101,9 @@
           <li><a href="#"><img src="images/enterprise7.png" alt="夥伴logo"></a></li>
         </ul>
       </div>
-      <div class="swiper-recommend mt-160">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
+      <div class="swiper mt-160">
+        <div class="swiper-wrapper row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="swiper-slide col col-md-6 col-lg-4">
             <div class="sr-card">
               <div class="grade">
                 <span class="material-icons">grade</span>
@@ -114,14 +117,14 @@
               <div class="recommender">
                 <img src="images/avatar3.png" alt="陳小姐頭像">
                 <div class="r-name ml-16">
-                  <p class="TC-b-b">陳小姐</p>
+                  <span class="TC-b-b">陳小姐</span>
                   <span class="TC-s-r">ABC科技有限公司</span>
                 </div>
               </div>
 
             </div>
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide col col-md-6 col-lg-4">
             <div class="sr-card">
               <div class="grade">
                 <span class="material-icons">grade</span>
@@ -135,14 +138,14 @@
               <div class="recommender">
                 <img src="images/avatar1.png" alt="劉小姐頭像">
                 <div class="r-name ml-16">
-                  <p class="TC-b-b">劉小姐</p>
+                  <span class="TC-b-b">劉小姐</span>
                   <span class="TC-s-r">XYZ 醫療器材有限公司</span>
                 </div>
               </div>
 
             </div>
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide col col-md-6 col-lg-4">
             <div class="sr-card">
               <div class="grade">
                 <span class="material-icons">grade</span>
@@ -156,13 +159,14 @@
               <div class="recommender">
                 <img src="images/avatar2.png" alt="黃先生頭像">
                 <div class="r-name ml-16">
-                  <p class="TC-b-b">黃先生</p>
+                  <span class="TC-b-b">黃先生</span>
                   <span class="TC-s-r">EFG 銀行</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
         
 
@@ -373,6 +377,8 @@
   </div>
   <!-- jquery -->
   <script src="js/jquery-3.7.0.min.js"></script>
+  <!-- Swiper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <!-- customized js -->
   <script src="js/all.js"></script>
 </body>
