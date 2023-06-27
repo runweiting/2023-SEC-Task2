@@ -36,8 +36,10 @@
         scrollbar-width: none; /* Firefox */
     }
 }
-.swiper-recommend {
-    margin: 160px 0;
+.swiper {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-bottom: 36px;
 }
 .sr-card {
     padding: 40px;
@@ -48,14 +50,11 @@
         font-size: 14px;
         gap: 4px;
     }
-    p {
-        height: 215px;
-    }
     .recommender {
         display: flex;
         img {
             width: 48px;
-            height: auto;
+            height: 100%;
         }
         .r-name {
             display: flex;

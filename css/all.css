@@ -429,8 +429,10 @@ a:hover {
   display: none;
 }
 
-.swiper-recommend {
-  margin: 160px 0;
+.swiper {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-bottom: 36px;
 }
 
 .sr-card {
@@ -443,15 +445,12 @@ a:hover {
   font-size: 14px;
   gap: 4px;
 }
-.sr-card p {
-  height: 215px;
-}
 .sr-card .recommender {
   display: flex;
 }
 .sr-card .recommender img {
   width: 48px;
-  height: auto;
+  height: 100%;
 }
 .sr-card .recommender .r-name {
   display: flex;

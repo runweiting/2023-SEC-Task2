@@ -14,19 +14,21 @@ $(document).ready(function () {
 const swiper = new Swiper('.swiper', {
 
     slidesPerView: 1,
+
     breakpoints: {
-      576: {
-        slidesPerView: 2,
-        slidesPerGroup: 24,
-      },
       768: {
+        slidesPerView: 2,
+        spaceBetween: 24,
+      },
+      1200: {
         slidesPerView: 3,
-        slidesPerGroup: 24,
+        spaceBetween: 24,
       },
     },
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
+      loop: true, 
       clickable: true,
     },
 });
