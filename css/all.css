@@ -543,23 +543,23 @@ a:hover {
 }
 
 /* filter */
-.filter, .new2old {
+.filter {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.filter-btn, .new2old-btn {
+.filter-btn, .select-btn {
   padding: 20px 40px;
   border-radius: 16px;
   border: 1px solid #f2f2f2;
   background-color: #ffffff;
 }
-.filter-btn .material-icons, .new2old-btn .material-icons {
+.filter-btn .material-icons, .select-btn .material-icons {
   font-size: 16px;
   margin-left: 12px;
 }
-.filter-btn:hover, .new2old-btn:hover {
+.filter-btn:hover, .select-btn:hover {
   border-color: #020202;
 }
 
@@ -576,27 +576,40 @@ a:hover {
   text-align: center;
   border: none;
 }
-.sort-btn button:active, .sort-btn button:hover {
+.sort-btn button.active, .sort-btn button:hover {
   font-weight: 700;
   color: #020202;
   background: #f2f2f2;
 }
 
-.new2old {
+.select-new-old {
   position: relative;
 }
-.new2old .dropdown-menu {
+.select-new-old .dropdown-menu {
   position: absolute;
+  top: 0;
   right: 0;
+  margin-top: 70px;
   padding: 20px 40px;
   border-radius: 16px;
   border: 1px solid #f2f2f2;
-  background-color: yellow;
-  color: #020202;
+  background-color: #ffffff;
   white-space: nowrap;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+.select-new-old .dropdown-menu a {
+  color: #020202;
+}
+.select-new-old .dropdown-menu a:hover {
+  transform: scale(1.1);
+  border-color: #020202;
+}
+.select-new-old .dropdown-menu.show {
+  display: block;
 }
 
-.tool-list {
+.tool-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -604,31 +617,31 @@ a:hover {
   text-align: left;
   gap: 24px;
 }
-.tool-list .list-item-t {
+.tool-card .tc-item {
   width: 416px;
   color: #020202;
   border: 1px solid #f2f2f2;
   border-radius: 0 0 16px 16px;
 }
-.tool-list .list-item-t img {
+.tool-card .tc-item img {
   border-radius: 16px 16px 0 0;
 }
-.tool-list .list-item-t .tool-intro {
+.tool-card .tc-item .tool-intro {
   height: 118px;
   padding: 20px 32px;
   border-bottom: 1px solid #f2f2f2;
 }
-.tool-list .list-item-t .tool-tag {
+.tool-card .tc-item .tool-tag {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 32px;
   border-bottom: 1px solid #f2f2f2;
 }
-.tool-list .list-item-t .tool-tag a {
+.tool-card .tc-item .tool-tag a {
   color: #020202;
 }
-.tool-list .list-item-t .tool-tag a:hover {
+.tool-card .tc-item .tool-tag a:hover {
   opacity: 0.7;
 }
 
