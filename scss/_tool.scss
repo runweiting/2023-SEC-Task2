@@ -95,23 +95,37 @@
     }
 }
 
-.tool-card {
+.product {
     text-align: left;
-    gap: 24px;
-    .tc-item {
+    gap: 24px 0px;
+    .product-card {
+        display: flex;
+        flex-direction: column;
         padding: 0px;
         color: $black-100;
         border: 1px solid $black-20;
-        border-radius: 0 0 16px 16px;
-        img {
-            border-radius: 16px 16px 0 0;
+        border-radius: 16px;
+        overflow: hidden;
+        .p-cover {
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            .cover-img {
+                display: block;
+                transition: all 1s ease-in-out;
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
         }
-        .tool-intro {
+        .p-intro {
             height: 118px;
             padding: 20px 32px;
             border-bottom: 1px solid $black-20;
         }
-        .tool-tag {
+        .p-tag {
             display: flex;
             justify-content: space-between;
             align-items: center;

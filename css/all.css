@@ -609,35 +609,49 @@ a:hover {
   display: block;
 }
 
-.tool-card {
+.product {
   text-align: left;
-  gap: 24px;
+  gap: 24px 0px;
 }
-.tool-card .tc-item {
+.product .product-card {
+  display: flex;
+  flex-direction: column;
   padding: 0px;
   color: #020202;
   border: 1px solid #f2f2f2;
-  border-radius: 0 0 16px 16px;
+  border-radius: 16px;
+  overflow: hidden;
 }
-.tool-card .tc-item img {
-  border-radius: 16px 16px 0 0;
+.product .product-card .p-cover {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
-.tool-card .tc-item .tool-intro {
+.product .product-card .p-cover .cover-img {
+  display: block;
+  transition: all 1s ease-in-out;
+}
+.product .product-card .p-cover .cover-img:hover {
+  transform: scale(1.2);
+}
+.product .product-card .p-intro {
   height: 118px;
   padding: 20px 32px;
   border-bottom: 1px solid #f2f2f2;
 }
-.tool-card .tc-item .tool-tag {
+.product .product-card .p-tag {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 32px;
   border-bottom: 1px solid #f2f2f2;
 }
-.tool-card .tc-item .tool-tag a {
+.product .product-card .p-tag a {
   color: #020202;
 }
-.tool-card .tc-item .tool-tag a:hover {
+.product .product-card .p-tag a:hover {
   opacity: 0.7;
 }
 
