@@ -542,7 +542,7 @@ a:hover {
   background: #f2f2f2;
 }
 
-/* filter */
+/* filter, sort and select */
 .filter {
   display: flex;
   justify-content: space-between;
@@ -610,15 +610,11 @@ a:hover {
 }
 
 .tool-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
   text-align: left;
   gap: 24px;
 }
 .tool-card .tc-item {
-  width: 416px;
+  padding: 0px;
   color: #020202;
   border: 1px solid #f2f2f2;
   border-radius: 0 0 16px 16px;

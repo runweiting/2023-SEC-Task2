@@ -31,7 +31,7 @@
         background: $black-20;
     }
 }
-/* filter */
+/* filter, sort and select */
 .filter {
     display: flex;
     justify-content: space-between;
@@ -95,16 +95,11 @@
     }
 }
 
-
 .tool-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
     text-align: left;
     gap: 24px;
     .tc-item {
-        width: 416px;
+        padding: 0px;
         color: $black-100;
         border: 1px solid $black-20;
         border-radius: 0 0 16px 16px;
