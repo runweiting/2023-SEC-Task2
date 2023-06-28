@@ -145,28 +145,28 @@
     display: flex;
     justify-content: flex-end;
     gap: 4px;
-    a {
+    button {
         display: block;
         width: 48px;
         height: 48px;
+        color: $black-100;
         background: $black-0;
         border-radius: 16px;
+        border: 0;
         font-size: 14px;
         font-weight: 700;
-        text-decoration: none;
-        color: $black-100;
-        padding: 17px;
         .material-icons {
             font-size: 5px;
+        }
+        &.active {
+            color: $black-0;
+            background-color: $black-100;
         }
         &:hover {
             color: $black-0;
             background: $black-100;
         }
-        
-
     }
-
 }
 
 /* 992px */

@@ -660,22 +660,25 @@ a:hover {
   justify-content: flex-end;
   gap: 4px;
 }
-.pagination a {
+.pagination button {
   display: block;
   width: 48px;
   height: 48px;
+  color: #020202;
   background: #ffffff;
   border-radius: 16px;
+  border: 0;
   font-size: 14px;
   font-weight: 700;
-  text-decoration: none;
-  color: #020202;
-  padding: 17px;
 }
-.pagination a .material-icons {
+.pagination button .material-icons {
   font-size: 5px;
 }
-.pagination a:hover {
+.pagination button.active {
+  color: #ffffff;
+  background-color: #020202;
+}
+.pagination button:hover {
   color: #ffffff;
   background: #020202;
 }
