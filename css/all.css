@@ -56,6 +56,10 @@ table {
 /*,*:before,*:after {
 	outline: 1px solid #919191;
 }*/
+.black-60 {
+  color: #919191;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -165,6 +169,10 @@ a:hover {
 
 .mr-100 {
   margin-right: 100px;
+}
+
+.ml-12 {
+  margin-left: 12px;
 }
 
 .ml-16 {
@@ -526,46 +534,46 @@ a:hover {
   background: #f2f2f2;
 }
 
-.tool-nav {
-  width: 100%;
-  margin-top: 168px;
-  padding: 20px 0 40px;
+.filter {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.tool-nav .filter-s {
+
+.filter-btn {
+  padding: 20px 40px;
+  border-radius: 16px;
+  border: 1px solid #f2f2f2;
+  background-color: #ffffff;
+}
+.filter-btn .material-icons {
+  font-size: 16px;
+  margin-left: 12px;
+}
+.filter-btn:hover {
+  border-color: #020202;
+}
+
+.sort-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 132px;
-  height: 64px;
-  padding: 20px 34px 20px 34px;
-  border: 1px solid #f2f2f2;
-  border-radius: 12px;
+  gap: 8px;
 }
-.tool-nav .filter-s .material-icons {
-  font-size: 10px;
-}
-.tool-nav .filter-tag {
-  height: 40px;
-  display: flex;
-  align-items: center;
-}
-.tool-nav .filter-tag a {
-  color: #919191;
-  text-decoration: none;
+.sort-btn button {
   padding: 8px 16px;
   border-radius: 16px;
   background: #ffffff;
+  text-align: center;
+  border: none;
 }
-.tool-nav .filter-tag a:hover {
-  font-size: 16px;
+.sort-btn button:active, .sort-btn button:hover {
   font-weight: 700;
   color: #020202;
   background: #f2f2f2;
 }
-.tool-nav .filter-type {
+
+.new2old {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -575,7 +583,7 @@ a:hover {
   border: 1px solid #f2f2f2;
   border-radius: 12px;
 }
-.tool-nav .filter-type .material-icons {
+.new2old .material-icons {
   font-size: 10px;
 }
 
