@@ -83,6 +83,12 @@ a {
 	}
 }
 .container {
-    max-width: 1320px;
+    max-width: 100%;
+	padding: 0px;
+
+}
+.wrap {
+	max-width: 1320px;
     margin: 0 auto;
 }
+

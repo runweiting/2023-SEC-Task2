@@ -81,6 +81,11 @@ a:hover {
 }
 
 .container {
+  max-width: 100%;
+  padding: 0px;
+}
+
+.wrap {
   max-width: 1320px;
   margin: 0 auto;
 }
@@ -200,6 +205,10 @@ a:hover {
 
 .mb-24 {
   margin-bottom: 24px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
 }
 
 .mb-160 {
@@ -487,36 +496,34 @@ a:hover {
   }
 }
 .tool {
+  width: 100%;
   background: #ffffff;
   border-radius: 160px;
-  padding: 160px 0;
+  padding: 160px 20px;
   color: #020202;
   text-align: center;
 }
 
-.tool-search {
+.input {
+  max-width: 1296px;
+  margin: 0 auto;
   position: relative;
 }
-.tool-search .material-icons {
+.input .material-icons {
+  margin-right: 12px;
   color: #919191;
-  z-index: 1;
   position: absolute;
   top: 20px;
-  left: 50px;
+  left: 40px;
 }
-.tool-search .search-bar {
+.input .search-bar {
   width: 100%;
   height: 64px;
   border-radius: 16px;
   border: none;
-  padding: 20px 40px;
-  text-indent: 40px;
+  padding: 20px 40px 20px 76px;
   color: #919191;
   background: #f2f2f2;
-  z-index: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .tool-nav {
@@ -638,6 +645,11 @@ a:hover {
 }
 
 /* 992px */
+@media (max-width: 992px) {
+  .break-rwd992 {
+    display: inline-block;
+  }
+}
 /* 767px */
 /* 414px */
 .action {
