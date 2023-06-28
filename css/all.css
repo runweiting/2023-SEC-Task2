@@ -247,6 +247,10 @@ a:hover {
   letter-spacing: -0.9px;
 }
 
+.none {
+  display: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -511,9 +515,13 @@ a:hover {
   color: #020202;
   text-align: center;
 }
-
-.input {
+.tool .tool-content {
   max-width: 1296px;
+  margin: 0 auto;
+}
+
+/* search-bar */
+.input {
   margin: 0 auto;
   position: relative;
 }
@@ -534,23 +542,24 @@ a:hover {
   background: #f2f2f2;
 }
 
-.filter {
+/* filter */
+.filter, .new2old {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.filter-btn {
+.filter-btn, .new2old-btn {
   padding: 20px 40px;
   border-radius: 16px;
   border: 1px solid #f2f2f2;
   background-color: #ffffff;
 }
-.filter-btn .material-icons {
+.filter-btn .material-icons, .new2old-btn .material-icons {
   font-size: 16px;
   margin-left: 12px;
 }
-.filter-btn:hover {
+.filter-btn:hover, .new2old-btn:hover {
   border-color: #020202;
 }
 
@@ -574,21 +583,17 @@ a:hover {
 }
 
 .new2old {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 164px;
-  height: 64px;
-  padding: 20px 34px 20px 34px;
+  position: relative;
+}
+.new2old .dropdown-menu {
+  position: absolute;
+  right: 0;
+  padding: 20px 40px;
+  border-radius: 16px;
   border: 1px solid #f2f2f2;
-  border-radius: 12px;
-}
-.new2old .material-icons {
-  font-size: 10px;
-}
-
-.tool-nav-collapse {
-  display: none;
+  background-color: yellow;
+  color: #020202;
+  white-space: nowrap;
 }
 
 .tool-list {

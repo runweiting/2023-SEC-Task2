@@ -30,7 +30,7 @@
             <li><a href="#" class="TC-b-b mr-20">首頁</a></li>
             <li><a href="#" class="TC-b-b">定價</a></li>
           </ul>
-          <!-- 電腦版不顯示 -->
+          <!-- 767px dropdown-menu -->
           <button type="button" class="navbar-btn">
             <span class="material-icons">menu</span>
           </button>
@@ -170,173 +170,160 @@
       </div>
     </div>
     <div class="tool mt-160">
-      <div class="tool-title mb-80">
-        <h2 class="TC-d03-b">這些超酷的應用，<span class="break-rwd992">都來自 AI工具王</span></h2>
-      </div>
-      <!-- search-bar -->
-      <div class="input">
-        <span class="material-icons">search</span>
-        <input type="search" class="search-bar TC-b-r" placeholder="輸入關鍵字搜尋" id="search" name="search">
-      </div>
-      <!-- filter -->
-      <div class="filter mt-24">
-        <!-- filter-btn -->
-        <button type="button" class="filter-btn TC-b-r">篩選<span class="material-icons">filter_alt</span>
-        </button>
-        <!-- sort-btn -->
-        <ul class="sort-btn TC-b-r">
-          <li><button type="button" class="active">全部</button></li>
-          <li><button type="button" class="black-60">聊天</button></li>
-          <li><button type="button" class="black-60">影像辨識</button></li>
-          <li><button type="button" class="black-60">翻譯</button></li>
-          <li><button type="button" class="black-60">行銷</button></li>
-          <li><button type="button" class="black-60">客服</button></li>
-          <li><button type="button" class="black-60">生產力</button></li>
-        </ul>
-        <!-- new2old-btn -->
-        <div class="new2old">
-          <button type="button" class="new2old-btn">
-            <span class="TC-b-r mr-12">由新到舊</span>
-            <span class="material-icons">keyboard_arrow_down</span>
+      <div class="tool-content">
+        <div class="tool-title mb-80">
+          <h2 class="TC-d03-b">這些超酷的應用，<span class="break-rwd992">都來自 AI工具王</span></h2>
+        </div>
+        <!-- search-bar -->
+        <div class="input">
+          <span class="material-icons">search</span>
+          <input type="search" class="search-bar TC-b-r" placeholder="輸入關鍵字搜尋" id="search" name="search">
+        </div>
+        <!-- filter -->
+        <div class="filter mt-24">
+          <!-- filter-btn -->
+          <button type="button" class="filter-btn TC-b-r">篩選<span class="material-icons">filter_alt</span>
           </button>
-        </div>
-
-        
-      </div>
-      <div class="tool-nav-collapse">
-        <div class="filter-c">
-          <div class="filter-s-c">
-            <p class="TC-b-r mr-12">篩選</p>
-            <span class="material-icons">filter_alt</span>
+          <!-- sort-btn -->
+          <ul class="sort-btn TC-b-r">
+            <li><button type="button" class="active">全部</button></li>
+            <li><button type="button" class="black-60">聊天</button></li>
+            <li><button type="button" class="black-60">影像辨識</button></li>
+            <li><button type="button" class="black-60">翻譯</button></li>
+            <li><button type="button" class="black-60">行銷</button></li>
+            <li><button type="button" class="black-60">客服</button></li>
+            <li><button type="button" class="black-60">生產力</button></li>
+          </ul>
+          <!-- new2old-btn -->
+          <div class="new2old">
+            <button type="button" class="new2old-btn">
+              <span class="TC-b-r">由新到舊</span>
+              <span class="material-icons">keyboard_arrow_down</span>
+            </button>
+            <!-- 767px dropdown-menu -->
+            <ul class="dropdown-menu">
+              <!-- .new2old .old2new for JS -->
+              <li><a href="#" class="new2old TC-b-r">由新到舊</a></li>
+              <li><a href="#" class="old2new TC-b-r">由舊到新</a></li>
+            </ul>
           </div>
-          <div class="filter-type-c">
-            <p class="TC-b-r mr-12">由新到舊</p>
-            <span class="material-icons">expand_more</span>
-          </div>
         </div>
-        <ul class="filter-tag-c TC-b-r">
-          <li><a href="#">全部</a></li>
-          <li><a href="#">聊天</a></li>
-          <li><a href="#">影像辨識</a></li>
-          <li><a href="#">翻譯</a></li>
-          <li><a href="#">行銷</a></li>
-          <li><a href="#">客服</a></li>
-          <li><a href="#">生產力</a></li>
+        <ul class="tool-list mt-40">
+            <li class="list-item-t">
+              <img src="images/tool1.png" alt="Chatbot Builder圖示">
+              <div class="tool-intro">
+                <h4 class="TC-h06-b">Chatbot Builder</h4>
+                <p class="TC-s-r black-80 mt-12">建立智能化的聊天機器人，解答常見問題、提供客戶支援、收集反饋等。</p>
+              </div>
+              <div class="tool-tag">
+                <p class="TC-b-b">AI 模型</p>
+                <p class="TC-b-r">卡卡</p>
+              </div>
+              <div class="tool-tag">
+                <p class="TC-b-r">#聊天</p>
+                <a href="#"><span class="material-icons">share</span>
+  
+                </a>
+              </div>
+            </li>
+            <li class="list-item-t">
+              <img src="images/tool2.png" alt="Image Recognition Platform圖示">
+              <div class="tool-intro">
+                <h4 class="TC-h06-b ls-ti">Image Recognition Platform</h4>
+                <p class="TC-s-r black-80 mt-12">專業的圖像識別平台，識別圖像、分類、標記等。
+                </p>
+              </div>
+              <div class="tool-tag">
+                <p class="TC-b-b">AI 模型</p>
+                <p class="TC-b-r">杰杰</p>
+              </div>
+              <div class="tool-tag">
+                <p class="TC-b-r">#影像辨識</p>
+                <a href="#"><span class="material-icons">share</span>
+                </a>
+              </div>
+            </li>
+            <li class="list-item-t">
+              <img src="images/tool3.png" alt="Language Translation API圖示">
+              <div class="tool-intro">
+                <h4 class="TC-h06-b">Language Translation API</h4>
+                <p class="TC-s-r black-80 mt-12">專業的語言翻譯 API，實現文本翻譯功能，支援多種格式的文本。
+                </p>
+              </div>
+              <div class="tool-tag">
+                <p class="TC-b-b">AI 模型</p>
+                <p class="TC-b-r">琪琪</p>
+              </div>
+              <div class="tool-tag">
+                <p class="TC-b-r">#翻譯</p>
+                <a href="#"><span class="material-icons">share</span>
+                </a>
+              </div>
+            </li>
+            <li class="list-item-t">
+              <img src="images/tool4.png" alt="Sentiment Analysis API圖示">
+              <div class="tool-intro">
+                <h4 class="TC-h06-b">Sentiment Analysis API</h4>
+                <p class="TC-s-r black-80 mt-12">自動識別文本中的情感傾向，包括正向、負向和中性等。適用於情感分析、社交媒體監控、市場調查等。
+                </p>
+              </div>
+              <div class="tool-tag">
+                <p class="TC-b-b">AI 模型</p>
+                <p class="TC-b-r">昊昊</p>
+              </div>
+              <div class="tool-tag">
+                <p class="TC-b-r">#行銷</p>
+                <a href="#"><span class="material-icons">share</span>
+                </a>
+              </div>
+            </li>
+            <li class="list-item-t">
+              <img src="images/tool5.png" alt="Fraud Detection Platform圖示">
+              <div class="tool-intro">
+                <h4 class="TC-h06-b">Fraud Detection Platform</h4>
+                <p class="TC-s-r black-80 mt-12">預防詐騙活動，適用於銀行、金融、電商等。
+                </p>
+              </div>
+              <div class="tool-tag">
+                <p class="TC-b-b">AI 模型</p>
+                <p class="TC-b-r">卡卡</p>
+              </div>
+              <div class="tool-tag">
+                <p class="TC-b-r">#客服</p>
+                <a href="#"><span class="material-icons">share</span>
+                </a>
+              </div>
+            </li>
+            <li class="list-item-t">
+              <img src="images/tool6.png" alt="Voice Assistant SDK圖示">
+              <div class="tool-intro">
+                <h4 class="TC-h06-b">Voice Assistant SDK</h4>
+                <p class="TC-s-r black-80 mt-12">通過語音控制應用程式、設備，實現多種功能，例如播放音樂、查詢天氣、發送信息等。
+                </p>
+              </div>
+              <div class="tool-tag">
+                <p class="TC-b-b">AI 模型</p>
+                <p class="TC-b-r">杰杰</p>
+              </div>
+              <div class="tool-tag">
+                <p class="TC-b-r">#生產力</p>
+                <a href="#"><span class="material-icons">share</span>
+                </a>
+              </div>
+            </li>
+        </ul>
+        <ul class="pagination mt-40">
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#"><span class="material-icons">chevron_right</span></a></li>
         </ul>
       </div>
-      <ul class="tool-list">
-          <li class="list-item-t">
-            <img src="images/tool1.png" alt="Chatbot Builder圖示">
-            <div class="tool-intro">
-              <h4 class="TC-h06-b">Chatbot Builder</h4>
-              <p class="TC-s-r black-80 mt-12">建立智能化的聊天機器人，解答常見問題、提供客戶支援、收集反饋等。</p>
-            </div>
-            <div class="tool-tag">
-              <p class="TC-b-b">AI 模型</p>
-              <p class="TC-b-r">卡卡</p>
-            </div>
-            <div class="tool-tag">
-              <p class="TC-b-r">#聊天</p>
-              <a href="#"><span class="material-icons">share</span>
-
-              </a>
-            </div>
-          </li>
-          <li class="list-item-t">
-            <img src="images/tool2.png" alt="Image Recognition Platform圖示">
-            <div class="tool-intro">
-              <h4 class="TC-h06-b ls-ti">Image Recognition Platform</h4>
-              <p class="TC-s-r black-80 mt-12">專業的圖像識別平台，識別圖像、分類、標記等。
-              </p>
-            </div>
-            <div class="tool-tag">
-              <p class="TC-b-b">AI 模型</p>
-              <p class="TC-b-r">杰杰</p>
-            </div>
-            <div class="tool-tag">
-              <p class="TC-b-r">#影像辨識</p>
-              <a href="#"><span class="material-icons">share</span>
-              </a>
-            </div>
-          </li>
-          <li class="list-item-t">
-            <img src="images/tool3.png" alt="Language Translation API圖示">
-            <div class="tool-intro">
-              <h4 class="TC-h06-b">Language Translation API</h4>
-              <p class="TC-s-r black-80 mt-12">專業的語言翻譯 API，實現文本翻譯功能，支援多種格式的文本。
-              </p>
-            </div>
-            <div class="tool-tag">
-              <p class="TC-b-b">AI 模型</p>
-              <p class="TC-b-r">琪琪</p>
-            </div>
-            <div class="tool-tag">
-              <p class="TC-b-r">#翻譯</p>
-              <a href="#"><span class="material-icons">share</span>
-              </a>
-            </div>
-          </li>
-          <li class="list-item-t">
-            <img src="images/tool4.png" alt="Sentiment Analysis API圖示">
-            <div class="tool-intro">
-              <h4 class="TC-h06-b">Sentiment Analysis API</h4>
-              <p class="TC-s-r black-80 mt-12">自動識別文本中的情感傾向，包括正向、負向和中性等。適用於情感分析、社交媒體監控、市場調查等。
-              </p>
-            </div>
-            <div class="tool-tag">
-              <p class="TC-b-b">AI 模型</p>
-              <p class="TC-b-r">昊昊</p>
-            </div>
-            <div class="tool-tag">
-              <p class="TC-b-r">#行銷</p>
-              <a href="#"><span class="material-icons">share</span>
-              </a>
-            </div>
-          </li>
-          <li class="list-item-t">
-            <img src="images/tool5.png" alt="Fraud Detection Platform圖示">
-            <div class="tool-intro">
-              <h4 class="TC-h06-b">Fraud Detection Platform</h4>
-              <p class="TC-s-r black-80 mt-12">預防詐騙活動，適用於銀行、金融、電商等。
-              </p>
-            </div>
-            <div class="tool-tag">
-              <p class="TC-b-b">AI 模型</p>
-              <p class="TC-b-r">卡卡</p>
-            </div>
-            <div class="tool-tag">
-              <p class="TC-b-r">#客服</p>
-              <a href="#"><span class="material-icons">share</span>
-              </a>
-            </div>
-          </li>
-          <li class="list-item-t">
-            <img src="images/tool6.png" alt="Voice Assistant SDK圖示">
-            <div class="tool-intro">
-              <h4 class="TC-h06-b">Voice Assistant SDK</h4>
-              <p class="TC-s-r black-80 mt-12">通過語音控制應用程式、設備，實現多種功能，例如播放音樂、查詢天氣、發送信息等。
-              </p>
-            </div>
-            <div class="tool-tag">
-              <p class="TC-b-b">AI 模型</p>
-              <p class="TC-b-r">杰杰</p>
-            </div>
-            <div class="tool-tag">
-              <p class="TC-b-r">#生產力</p>
-              <a href="#"><span class="material-icons">share</span>
-              </a>
-            </div>
-          </li>
-      </ul>
-      <ul class="pagination mt-40">
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li><a href="#"><span class="material-icons">chevron_right</span></a></li>
-      </ul>
+      
     </div>
+
     <div class="action">
       <div class="action-title">
         <h3 class="TC-h01-b">現在就來建立屬於你的服務吧</h3>

@@ -5,9 +5,13 @@
     padding: 160px 20px;
     color: $black-100;
     text-align: center;
+    .tool-content {
+        max-width: 1296px;
+        margin: 0 auto;
+    }
 }
+/* search-bar */
 .input {
-    max-width: 1296px;
     margin: 0 auto;
     position: relative;
     .material-icons {
@@ -27,12 +31,13 @@
         background: $black-20;
     }
 }
-.filter {
+/* filter */
+.filter,.new2old {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.filter-btn {
+.filter-btn,.new2old-btn {
     padding: 20px 40px;
     border-radius: 16px;
     border: 1px solid $black-20;
@@ -64,22 +69,20 @@
     }
 }
 .new2old {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 164px;
-    height: 64px;
-    padding: 20px 34px 20px 34px;
-    border: 1px solid $black-20;
-    border-radius: 12px;
-    .material-icons{
-        font-size: 10px;
+    position: relative;
+    .dropdown-menu {
+        position: absolute;
+        right: 0;
+        padding: 20px 40px;
+        border-radius: 16px;
+        border: 1px solid $black-20;
+        background-color: yellow;
+        color: $black-100;
+        white-space: nowrap;
     }
 }
 
-.tool-nav-collapse {
-    display: none;
-}
+
 .tool-list {
     display: flex;
     justify-content: space-between;
