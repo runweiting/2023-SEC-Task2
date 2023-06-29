@@ -107,6 +107,7 @@ a:hover {
 .TC-h01-b {
   font-size: 48px;
   font-weight: 900;
+  line-height: 58px;
 }
 
 .TC-h03-b {
@@ -320,8 +321,8 @@ a:hover {
     padding: 0 20px;
   }
 }
-/* 767px */
-@media (max-width: 767px) {
+/* 767.98px */
+@media (max-width: 767.98px) {
   .navbar-banner h1 {
     font-size: 100px;
     font-weight: 900;
@@ -333,20 +334,28 @@ a:hover {
   .navbar-btn {
     display: block;
   }
+  .deco-animation img {
+    width: 33.3333333333%;
+    height: auto;
+  }
 }
-/* 414px */
-@media (max-width: 414px) {
+/* 575.98px */
+@media (max-width: 575.98px) {
   .navbar-banner h1 {
-    font-size: 42px;
-    line-height: 58px;
+    font-size: 70px;
+    line-height: 80px;
     font-weight: 900;
   }
   .navbar a > img {
     height: 24px;
   }
-  .deco-animation img {
-    width: 33.3333333333%;
-    height: auto;
+}
+/* 413.98px */
+@media (max-width: 413.98px) {
+  .navbar-banner h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 900;
   }
 }
 .service-title {
@@ -731,13 +740,13 @@ a:hover {
     white-space: nowrap;
   }
 }
-/* 640px */
+/* 639.98px */
 @media (max-width: 639.98px) {
   .sort-btn {
     justify-content: start;
   }
 }
-/* 576px */
+/* 575.98px */
 @media (max-width: 575.98px) {
   .tool-content {
     width: 100%;
@@ -746,9 +755,9 @@ a:hover {
     margin-bottom: 40px;
   }
   .tool-title h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 50px;
   }
   .product {
     flex-direction: column;
@@ -762,36 +771,51 @@ a:hover {
   }
 }
 .action {
-  margin-top: 78px;
   padding: 80px 0;
+}
+
+.action-title {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-.action .action-btn {
-  height: 64px;
-  display: flex;
-  align-items: center;
+.action-title h2 {
+  text-align: center;
+}
+
+.action-btn {
   color: #ffffff;
+  background-color: #020202;
   padding: 20px 40px;
   border: 1px solid #ffffff;
   border-radius: 16px;
-  text-decoration: none;
 }
-.action .action-btn .material-icons {
+.action-btn .material-icons {
   font-size: 15px;
 }
-.action .action-btn:hover {
+.action-btn:hover {
   opacity: 0.7;
 }
 
-.action-title-collapse {
-  display: none;
+/* 576px */
+@media (max-width: 575.98px) {
+  .break-rwd576 {
+    display: block;
+  }
 }
-
-/* 992px */
-/* 767px */
 /* 414px */
+@media (max-width: 413.98px) {
+  .action {
+    padding: 10px 0;
+    margin: 0 0;
+  }
+  .action-title h2 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+  }
+}
 .footer-nav {
   padding: 80px 0;
   border-top: 1px solid #ffffff;

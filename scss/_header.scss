@@ -61,8 +61,8 @@
         padding: 0 20px;
     }
 }
-/* 767px */
-@media (max-width: 767px) {
+/* 767.98px */
+@media (max-width: 767.98px) {
     .navbar-banner h1 {
         font-size: 100px;
         font-weight: 900;
@@ -74,20 +74,29 @@
     .navbar-btn {
         display: block;
     }
+    .deco-animation img {
+        width: calc(100% / 3);
+        height: auto;
+    }
 }
 
-/* 414px */
-@media (max-width: 414px) {
+/* 575.98px */
+@media (max-width: 575.98px) {
     .navbar-banner h1 {
-        font-size: 42px;
-        line-height: 58px;
+        font-size: 70px;
+        line-height: 80px;
         font-weight: 900;
     }
     .navbar a > img {
         height: 24px;
     }
-    .deco-animation img {
-        width: calc(100% / 3);
-        height: auto;
+}
+
+/* 413.98px */
+@media (max-width: 413.98px) {
+    .navbar-banner h1 {
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 900;
     }
 }
