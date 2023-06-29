@@ -147,6 +147,10 @@ a:hover {
   line-height: 58px;
 }
 
+.lh-90 {
+  line-height: 90px;
+}
+
 .lh-144 {
   line-height: 144px;
 }
@@ -594,7 +598,6 @@ a:hover {
   border-radius: 16px;
   border: 1px solid #f2f2f2;
   background-color: #ffffff;
-  white-space: nowrap;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
   text-align: center;
 }
@@ -614,6 +617,7 @@ a:hover {
   gap: 24px 0px;
 }
 .product .product-card {
+  height: 558px;
   display: flex;
   flex-direction: column;
   padding: 0px;
@@ -637,11 +641,12 @@ a:hover {
   transform: scale(1.2);
 }
 .product .product-card .p-intro {
-  height: 118px;
+  flex-grow: 1;
   padding: 20px 32px;
   border-bottom: 1px solid #f2f2f2;
 }
 .product .product-card .p-tag {
+  height: 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;

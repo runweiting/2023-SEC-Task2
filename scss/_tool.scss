@@ -79,7 +79,6 @@
         border-radius: 16px;
         border: 1px solid $black-20;
         background-color: $black-0;
-        white-space: nowrap;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
         text-align: center;
         a {
@@ -94,11 +93,11 @@
         }
     }
 }
-
 .product {
     text-align: left;
     gap: 24px 0px;
     .product-card {
+        height: 558px;
         display: flex;
         flex-direction: column;
         padding: 0px;
@@ -121,11 +120,12 @@
             }
         }
         .p-intro {
-            height: 118px;
+            flex-grow: 1;
             padding: 20px 32px;
             border-bottom: 1px solid $black-20;
         }
         .p-tag {
+            height: 64px;
             display: flex;
             justify-content: space-between;
             align-items: center;
