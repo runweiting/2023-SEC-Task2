@@ -106,6 +106,7 @@
         border-radius: 16px;
         overflow: hidden;
         .p-cover {
+            width: 100%;
             height: auto;
             display: flex;
             justify-content: center;
@@ -113,7 +114,7 @@
             overflow: hidden;
             .cover-img {
                 display: block;
-                transition: all 1s ease-in-out;
+                transition: all 0.5s ease-in-out;
                 &:hover {
                     transform: scale(1.2);
                 }
@@ -224,6 +225,25 @@
 
 /* 576px */
 @media (max-width: 575.98px) {
-    
-
+    .tool-content {
+        width: 100%;
+    }
+    .tool-title {
+        margin-bottom: 40px;
+        h2 {
+            font-size: 50px;
+            font-weight: 900;
+            line-height: 60px;
+        }
+    }
+    .product {
+        flex-direction: column;
+    }
+    .product-card {
+        width: 100%;
+        .cover-img {
+            width: 100%;
+            height: auto;
+        }
+    }
 }
