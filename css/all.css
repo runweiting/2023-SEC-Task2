@@ -92,6 +92,7 @@ a:hover {
 .wrap {
   max-width: 1320px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* 413.98px */
@@ -283,9 +284,6 @@ a:hover {
   padding: 20px 40px;
   border: 1px solid #ffffff;
   border-radius: 16px;
-}
-.start-btn:hover {
-  opacity: 0.7;
 }
 
 .deco-animation {
@@ -669,12 +667,6 @@ a:hover {
   padding: 20px 32px;
   border-bottom: 1px solid #f2f2f2;
 }
-.product .product-card .p-tag a {
-  color: #020202;
-}
-.product .product-card .p-tag a:hover {
-  opacity: 0.7;
-}
 
 .pagination {
   display: flex;
@@ -819,9 +811,6 @@ a:hover {
 .action-btn .material-icons {
   font-size: 15px;
 }
-.action-btn:hover {
-  opacity: 0.7;
-}
 
 /* 576px */
 @media (max-width: 575.98px) {
@@ -843,60 +832,43 @@ a:hover {
     line-height: 38px;
   }
 }
-.footer-nav {
+.footer {
+  padding: 0 20px;
+}
+
+.footer-top {
   padding: 80px 0;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
   display: flex;
   justify-content: space-between;
 }
-.footer-nav .footer-menu a {
+.footer-top .footer-logo {
   display: block;
-  color: #ffffff;
-  text-decoration: none;
-}
-.footer-nav .footer-menu a:hover {
-  opacity: 0.7;
-}
-.footer-nav img {
+  width: 245px;
   height: 40px;
+  white-space: nowrap;
 }
 
-.footer-subnav {
+.footer-buttom {
   padding: 32px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.footer-subnav .subnav-content {
+.footer-buttom .fb-content {
   display: flex;
 }
-.footer-subnav .subnav-content .friendlink {
+.footer-buttom .fb-content .friendlink {
   display: flex;
   align-items: center;
 }
-.footer-subnav .subnav-content .friendlink a {
-  display: block;
-  color: #ffffff;
-  text-decoration: none;
-}
-.footer-subnav .subnav-content .friendlink a:hover {
-  opacity: 0.7;
-}
-.footer-subnav .backtotop {
+.footer-buttom .backtotop {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.footer-subnav .backtotop a {
-  display: block;
-  color: #ffffff;
-  text-decoration: none;
-}
-.footer-subnav .backtotop a:hover {
-  opacity: 0.7;
-}
-.footer-subnav .backtotop .material-icons {
+.footer-buttom .backtotop .material-icons {
   font-size: 10px;
 }
 

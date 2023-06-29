@@ -132,14 +132,7 @@
             align-items: center;
             padding: 20px 32px;
             border-bottom: 1px solid $black-20;
-            a {
-                color: $black-100;
-                &:hover {
-                    opacity: 0.7;
-                }
-            }
         }
-
     }
 }
 .pagination {

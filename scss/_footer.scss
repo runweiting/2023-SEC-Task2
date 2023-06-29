@@ -1,55 +1,35 @@
-.footer-nav {
+.footer {
+    padding: 0 20px;
+}
+.footer-top {
     padding: 80px 0;
     border-top: 1px solid $black-0;
     border-bottom: 1px solid $black-0;
     display: flex;
     justify-content: space-between;
-    .footer-menu {
-        a {
-            display: block;
-            color: $black-0;
-            text-decoration: none;
-            &:hover {
-                opacity: 0.7;
-            }
-        }
-    }
-    img {
+    .footer-logo {
+        display: block;
+        width: 245px;
         height: 40px;
+        white-space: nowrap;
     }
 }
-.footer-subnav {
+.footer-buttom {
     padding: 32px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .subnav-content {
+    .fb-content {
         display: flex;
         .friendlink {
             display: flex;
             align-items: center;
-            a {
-                display: block;
-                color: $black-0;
-                text-decoration: none;
-                &:hover {
-                    opacity: 0.7;
-                }
-            }
         } 
     }
     .backtotop {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        a {
-            display: block;
-            color: $black-0;
-            text-decoration: none;
-            &:hover {
-                opacity: 0.7;
-            }
-        }
         .material-icons {
             font-size: 10px;
         }
