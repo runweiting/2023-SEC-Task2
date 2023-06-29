@@ -218,6 +218,10 @@
 
 /* 639.98px */
 @media (max-width: 639.98px) {
+    .tool {
+        border-radius: 60px;
+        padding: 60px 20px;
+    }
     .sort-btn {
         justify-content: start;
     }
@@ -244,6 +248,21 @@
         .cover-img {
             width: 100%;
             height: auto;
+        }
+    }
+}
+/* 374.98px */
+@media (max-width: 374.98px) {
+    .tool {
+        border-radius: 40px;
+        padding: 40px 20px;
+    }
+    .tool-title {
+        margin-bottom: 40px;
+        h2 {
+            font-size: 35px;
+            font-weight: 900;
+            line-height: 40px;
         }
     }
 }
