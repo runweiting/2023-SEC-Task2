@@ -228,10 +228,13 @@
     .tool-title {
         margin-bottom: 40px;
         h2 {
-            font-size: 40px;
+            font-size: 35px;
             font-weight: 900;
-            line-height: 50px;
+            line-height: 40px;
         }
+    }
+    .filter-btn,.select-btn {
+        padding: 10px 20px;
     }
     .product {
         flex-direction: column;
@@ -252,14 +255,6 @@
     }
     .tool-title {
         margin-bottom: 30px;
-        h2 {
-            font-size: 35px;
-            font-weight: 900;
-            line-height: 40px;
-        }
-    }
-    .filter-btn,.select-btn {
-        padding: 10px 20px;
     }
     .pagination {
         gap: 0;

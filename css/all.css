@@ -755,9 +755,12 @@ a:hover {
     margin-bottom: 40px;
   }
   .tool-title h2 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 900;
-    line-height: 50px;
+    line-height: 40px;
+  }
+  .filter-btn, .select-btn {
+    padding: 10px 20px;
   }
   .product {
     flex-direction: column;
@@ -778,14 +781,6 @@ a:hover {
   }
   .tool-title {
     margin-bottom: 30px;
-  }
-  .tool-title h2 {
-    font-size: 35px;
-    font-weight: 900;
-    line-height: 40px;
-  }
-  .filter-btn, .select-btn {
-    padding: 10px 20px;
   }
   .pagination {
     gap: 0;
