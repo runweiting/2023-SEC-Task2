@@ -95,15 +95,6 @@ a:hover {
   padding: 0 20px;
 }
 
-/* 413.98px */
-@media (max-width: 413.98px) {
-  .container {
-    padding: 0 12px;
-  }
-  .wrap {
-    padding: 0;
-  }
-}
 .TC-d02-b {
   font-size: 120px;
   font-weight: 900;
@@ -320,11 +311,14 @@ a:hover {
     display: inline-block;
   }
   .container {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 }
 /* 767.98px */
 @media (max-width: 767.98px) {
+  .wrap {
+    padding: 0;
+  }
   .navbar-banner h1 {
     font-size: 100px;
     font-weight: 900;
@@ -701,7 +695,7 @@ a:hover {
   }
   .tool {
     border-radius: 80px;
-    padding: 80px 20px;
+    padding: 80px 0;
   }
 }
 /* 767.98px */
@@ -740,7 +734,7 @@ a:hover {
 @media (max-width: 639.98px) {
   .tool {
     border-radius: 60px;
-    padding: 60px 20px;
+    padding: 60px 10px;
   }
   .sort-btn {
     justify-content: start;
@@ -777,7 +771,7 @@ a:hover {
 @media (max-width: 374.98px) {
   .tool {
     border-radius: 40px;
-    padding: 40px 20px;
+    padding: 40px 10px;
   }
   .tool-title {
     margin-bottom: 30px;
