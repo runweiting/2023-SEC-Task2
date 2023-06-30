@@ -38,15 +38,11 @@
         transform: scale(1.1);
     }
 }
-.navbar-menu-collapse {
-    display: none;
-    position: absolute;
-    background-color: #1e1e1e;
-    width: 100%;
-    top: 190px;
-    height: calc(100vh - 84px);
+.p-tag {
+    a {
+        color: $black-100;
+    }
 }
-
 
 
 /* 992px */
@@ -80,8 +76,8 @@
 /* 575.98px */
 @media (max-width: 575.98px) {
     .navbar-banner h1 {
-        font-size: 70px;
-        line-height: 80px;
+        font-size: 60px;
+        line-height: 70px;
         font-weight: 900;
     }
     .navbar a > img {
@@ -92,8 +88,8 @@
 /* 413.98px */
 @media (max-width: 413.98px) {
     .navbar-banner h1 {
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 50px;
+        line-height: 60px;
         font-weight: 900;
     }
 }

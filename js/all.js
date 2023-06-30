@@ -1,8 +1,4 @@
 $(document).ready(function () {
-
-  /*$('.navbar-btn').click(function (e) {
-    $('.navbar-menu-collapse').slideToggle('show');
-  });*/
   
   /*
   當.select-btn點擊時.dropdown-menu出現
@@ -24,18 +20,14 @@ $(document).ready(function () {
     $('.dropdown-btn-text').text('由舊到新');
   });
 
-
-    
-  
-
-
-
-  $('.backtotop').click(function (event) {
-    $('body').animate({ scrollTop: 0 },800);
+  /* backtotop */
+  $('.backtotop').click(function(e) {
+    $('html,body').animate({ scrollTop: 0 },'slow');
   });
 
 });
 
+/* swiper */
 const swiper = new Swiper('.swiper', {
 
     slidesPerView: 1,

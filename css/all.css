@@ -100,6 +100,9 @@ a:hover {
   .container {
     padding: 0 12px;
   }
+  .wrap {
+    padding: 0;
+  }
 }
 .TC-d02-b {
   font-size: 120px;
@@ -307,13 +310,8 @@ a:hover {
   transform: scale(1.1);
 }
 
-.navbar-menu-collapse {
-  display: none;
-  position: absolute;
-  background-color: #1e1e1e;
-  width: 100%;
-  top: 190px;
-  height: calc(100vh - 84px);
+.p-tag a {
+  color: #020202;
 }
 
 /* 992px */
@@ -346,8 +344,8 @@ a:hover {
 /* 575.98px */
 @media (max-width: 575.98px) {
   .navbar-banner h1 {
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 60px;
+    line-height: 70px;
     font-weight: 900;
   }
   .navbar a > img {
@@ -357,8 +355,8 @@ a:hover {
 /* 413.98px */
 @media (max-width: 413.98px) {
   .navbar-banner h1 {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 60px;
     font-weight: 900;
   }
 }
@@ -779,12 +777,18 @@ a:hover {
     padding: 40px 20px;
   }
   .tool-title {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   .tool-title h2 {
     font-size: 35px;
     font-weight: 900;
     line-height: 40px;
+  }
+  .filter-btn, .select-btn {
+    padding: 10px 20px;
+  }
+  .pagination {
+    gap: 0;
   }
 }
 .action {
@@ -855,23 +859,58 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 40px;
 }
-.footer-buttom .fb-content {
-  display: flex;
-}
-.footer-buttom .fb-content .friendlink {
+
+.friendlink {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
-.footer-buttom .backtotop {
+
+.backtotop {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  color: #ffffff;
+  background-color: #1E1E1E;
+  border: 0;
 }
-.footer-buttom .backtotop .material-icons {
+.backtotop .material-icons {
   font-size: 10px;
 }
+.backtotop:hover {
+  cursor: pointer;
+}
 
-/* 992px */
-/* 767px */
-/* 414px *//*# sourceMappingURL=all.css.map */
+/* 639.98px */
+@media (max-width: 639.98px) {
+  .footer-buttom {
+    flex-wrap: wrap;
+  }
+  .copyright {
+    order: 1;
+  }
+  .backtotop {
+    order: 2;
+  }
+  .friendlink {
+    order: 3;
+  }
+}
+/* 575.98 */
+@media (max-width: 575.98px) {
+  .footer-top {
+    flex-direction: column;
+  }
+  .footer-menu a {
+    white-space: nowrap;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 900;
+  }
+  .footer-logo {
+    margin-bottom: 40px;
+    order: -1;
+  }
+}/*# sourceMappingURL=all.css.map */

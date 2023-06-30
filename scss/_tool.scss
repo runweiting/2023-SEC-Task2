@@ -251,11 +251,17 @@
         padding: 40px 20px;
     }
     .tool-title {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         h2 {
             font-size: 35px;
             font-weight: 900;
             line-height: 40px;
         }
+    }
+    .filter-btn,.select-btn {
+        padding: 10px 20px;
+    }
+    .pagination {
+        gap: 0;
     }
 }
